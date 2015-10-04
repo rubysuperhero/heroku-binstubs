@@ -1,0 +1,10 @@
+#!/bin/bash
+
+APP_NAME=trydetailadvantage
+APP_DIR=$HOME/repos/car-detailing
+
+APP_DIR=`pwd`
+REMOTE_NAME=try
+
+source $APP_DIR/stubs/base.sh
+

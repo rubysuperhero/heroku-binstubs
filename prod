@@ -1,0 +1,10 @@
+#!/bin/bash
+
+APP_NAME=detailadvantage
+APP_DIR=$HOME/repos/car-detailing
+
+REMOTE_NAME=heroku
+APP_DIR=`pwd`
+
+source $APP_DIR/stubs/base.sh
+

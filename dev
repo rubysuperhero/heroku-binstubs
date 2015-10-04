@@ -1,0 +1,14 @@
+#!/bin/bash
+
+IS_LOCAL=1
+APP_NAME=beautified
+APP_DIR=$HOME/bea/rails
+
+echo "app dir => $APP_DIR"
+echo "pwd     => $(pwd)"
+echo "0       => $0    "
+
+APP_DIR=`pwd`
+
+source $APP_DIR/stubs/base.sh
+
